@@ -1,0 +1,35 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block contenido %}
+
+<!-- ======= Hero No Slider Section ======= -->
+<section id="hero-no-slider" class="d-flex justify-cntent-center align-items-center">
+    <div class="container position-relative" data-aos="fade-up" data-aos-delay="100">
+      <div class="row justify-content-center">
+        <div class="col-xl-8">
+            <h2> INGRESEMOS DOCENTES </h2>
+        </div>
+      </div>
+    </div>
+  </section><!-- End Hero No Slider Sectio -->
+<br>
+<br>
+<br>
+
+<form action='/planta/crear_docente/' method="post">
+    {% csrf_token %}
+    <table>
+        {{formulario.as_table}}
+    </table>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+    &nbsp;&nbsp;
+    <input type = "submit" value="Enviar">
+</br>
+</br>
+</br>
+
+{% endblock %}
