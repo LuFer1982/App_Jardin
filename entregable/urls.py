@@ -19,7 +19,7 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path, include
 from entregable.views import pag_principal
-
+#la url de la app y de la pagina principal
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', pag_principal, name="principal"),
