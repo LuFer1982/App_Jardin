@@ -1,3 +1,5 @@
+<!-- Heredando de la base -->
+
 {% extends "base.html" %}
 {% load static %}
 
@@ -16,7 +18,7 @@
 <br>
 <br>
 <br>
-
+<!-- formulario para recopilar información sobre la creación de un alumnx-->
 <form action='/planta/crear_alumnx/' method="post">
     {% csrf_token %}
     <table>
