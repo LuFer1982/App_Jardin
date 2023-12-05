@@ -1,6 +1,6 @@
 from django.db import models
 
-# Create your models here.
+# la definicion de los 3 modelos creados
 
 class Docente(models.Model):
     nombre = models.CharField(max_length=25)

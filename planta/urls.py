@@ -1,6 +1,8 @@
 from django.urls import path
 from planta.views import crear_alumnx, crear_docente, crear_sala, busqueda_en_base
 
+#las definicion de las rutas para las vistas
+
 urlpatterns = [
     path('crear_alumnx/', crear_alumnx, name='crear_alumnx'),
     path('crear_docente/', crear_docente, name='crear_docente'),

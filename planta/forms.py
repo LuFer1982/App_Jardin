@@ -1,5 +1,8 @@
 from django import forms
 
+# la definicion de los tres formularios utilizando la clase forms 
+# que recopila información sobre Alumnxs, Docentes y Salas.
+
 class AlumnxFormulario(forms.Form):
     nombre = forms.CharField()
     apellido = forms.CharField()

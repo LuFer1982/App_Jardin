@@ -1,6 +1,6 @@
 from django.contrib import admin
 
-# Register your models here.
+# el registro de los 3 modelos que tengo
 
 from planta.models import Docente, Alumnx, Sala
 

@@ -4,7 +4,7 @@ from planta.forms import AlumnxFormulario, DocenteFormulario, SalaFormulario
 
 
 
-# Create your views here.
+# Las vistas para crear docentes, alumnxs y salas.
 
 
 
@@ -71,6 +71,7 @@ def crear_sala(request):
         nuevo_formulario = SalaFormulario()
         return render(request, 'sala_formulario.html', {"formulario": nuevo_formulario})
     
+#la vista para la busqueda de los alumnxs creados en la base
 
 def busqueda_en_base (request):
     
