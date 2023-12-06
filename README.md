@@ -25,7 +25,7 @@ Para correr esta página web estas son las instrucciones sugeridas:
 
 Espero les guste
 
-_Luciana Fernandez_ ![Mi avatar.](https://drive.google.com/file/d/1ZzZA0wqoYqCN6Tuc3957RqfoFQ4xnRsb/view?usp=sharing)
+_Luciana Fernandez_ ![Mi avatar.](https://github.com/LuFer1982/TuPrimeraPagina.Fernandez/blob/master/Templates/myAvatar.png)
 
 
 
