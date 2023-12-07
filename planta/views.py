@@ -77,7 +77,7 @@ def busqueda_en_base (request):
     
     if request.method == "POST":
         busqueda = request.POST ['apellido']
-        lista_alumnxs = Alumnx.objects.filter (apellido=busqueda)
+        lista_alumnxs = Alumnx.objects.filter (apellido__icontains=busqueda)
     
         return render (request, 'lista_alumnxs.html', {'lista': lista_alumnxs})
 
